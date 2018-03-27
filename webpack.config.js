@@ -22,7 +22,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.scss$/,
+        test: /\.s?css$/,
           use: [{
             loader: "style-loader" // creates style nodes from JS strings
           }, {
@@ -32,10 +32,6 @@ module.exports = {
           }]
       },
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: "babel-loader"
-      }, {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use: "babel-loader"
