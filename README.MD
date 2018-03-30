@@ -10,7 +10,9 @@ npm install react react-dom
 npm install --save bootstrap
 ```
 # add to package.json
+```
 "scripts": {
-"start": "webpack-dev-server --open --hot --progress --colors --inline",
-"build": "webpack -p --progress"
+    "start": "webpack-dev-server --open --hot --progress --colors --inline",
+    "build": "webpack -p --progress"
 },
+```
